@@ -10,7 +10,7 @@
     <title>gregslist</title>
 </head>
 
-<body>
+<body class="bg-dark">
     <header class="container-fluid bg-info">
         <div class="row m-3">
             <div class="col text-center text-light text-shadow">
@@ -19,13 +19,13 @@
         </div>
     </header>
     <main class="container" id="main">
-        <div class="row container-fluid bg-primary mx-auto">
+        <div class="row container-fluid bg-primary mx-auto my-3">
             <div class="col text-center text-light text-shadow">
                 <h1>Cars</h1>
             </div>
         </div>
         <div class="row my-3">
-            <div class="col">
+            <div class="col text-light">
                 <form onsubmit="app.carsController.createCar()" class="form-inline">
                     <div class="form-group p-1">
                         <label class="mr-1" for="make">Make</label>
@@ -73,13 +73,13 @@
                 </div>
             </div> -->
         </div>
-        <div class="row container-fluid bg-primary mx-auto">
+        <div class="row container-fluid bg-primary mx-auto my-3">
             <div class="col text-center text-light text-shadow">
                 <h1>Properties</h1>
             </div>
         </div>
         <div class="row my-3">
-            <div class="col">
+            <div class="col text-light">
                 <form onsubmit="app.homesController.createHome()" class="form-inline">
                     <div class="form-group p-1">
                         <label class="mr-1" for="model">Model</label>
@@ -124,13 +124,13 @@
             </div>
         </div> -->
         </div>
-        <div class="row container-fluid bg-primary mx-auto">
+        <div class="row container-fluid bg-primary mx-auto my-3">
             <div class="col text-center text-light text-shadow">
                 <h1>Jobs</h1>
             </div>
         </div>
         <div class="row my-3">
-            <div class="col">
+            <div class="col text-light">
                 <form onsubmit="app.jobsController.createJob()" class="form-inline">
                     <div class="form-group p-1">
                         <label class="mr-1" for="title">Title</label>
