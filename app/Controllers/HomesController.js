@@ -34,7 +34,7 @@ export default class HomesController {
             // @ts-ignore
             img: form.img.value
         }
-        debugger
+
         homesService.createHome(rawHome)
         _drawHomes();
     }
